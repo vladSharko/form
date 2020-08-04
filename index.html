@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+
+<body	bgcolor="#434842">
+	<form	name="test"	method="post"	action=".localized">
+		<header>
+			<h1	style="color:aqua">Опрос HTML.</h1>
+			<p	align="center">
+				<font	size="5"	color="#FFFFFF"	face="cursive">Имя</font>
+				<input	type="text"	size="20">
+			</p>
+			<p	align="center">
+				<font	size="5"	color="#FFFFFF"	face="cursive">Телефон +375</font>
+				<input	type="tel"	name="tel"	pattern="3-[0-9]{3}-[0-9]{3}-[0-9]{3}"	size="9">
+			</p>
+			<p	align="center">
+				<font	size="5"	color="#FFFFFF"	face="cursive">Email</font>
+				<input	type="email"	name="login">
+			</p>
+			<p	align="center">
+				<font	size="5"	color="#FFFFFF"	face="cursive">Пароль</font>
+				<input	type="password"	maxlength="10"	size="20"	name="password">
+			</p>
+			<p	align="center">
+				<font	size="5"	color="#FFFFFF"	face="cursive">Опрос:</font>
+			</p>
+		</header>
+			<font	size="3"	color="#FFFFFF"	face="cursive">
+				<h2>Какой тег нужно добавить для переноса строки, сохранив при этом валидность XHTML 1.1?</h2>
+		</font>
+			<p>
+				<font	size="4"	color="#FFFFFF"	face="serif">
+					<input	type="radio"	name="teg"	value="br">br<br>
+					<input	type="radio"	name="teg"	value="hr">hr<br>
+					<input	type="radio"	name="teg"	value="dl">dl<br>
+				</font>
+			</p>
+		<font	size="3"	color="#FFFFFF"	face="cursive">
+				<h2>Выберите правильный вариант установки цвета фона страницы?</h2>
+			</font>
+			<p>
+				<font	size="4"	color="#FFFFFF"	face="serif">
+					<input	type="radio"	name="fon"	value="background">background yellow<br>
+					<input	type="radio"	name="fon"	value="style">body style=”background-color:yellow;”<br>
+					<input	type="radio"	name="fon"	value="body	background">body background=”yellow”<br>
+					</font>
+			</p>
+		<font	size="3"	color="#FFFFFF"	face="cursive">
+				<h2>Выберите верный способ создания выпадающего списка</h2>
+		</font>
+			<p>
+				<font	size="4"	color="#FFFFFF"	face="serif">
+					<input	type="radio"	name="list"	value="select">select<br>
+					<input	type="radio"	name="list"	value="list">list<br>
+					<input	type="radio"	name="list"	value="type=dropdown">input type=”dropdown”<br>
+					<input	type="radio"	name="list"	value="type=list">input type=”list”<br>
+				</font>
+			</p>
+		<font	size="3"	color="#FFFFFF"	face="cursive">
+				<h2>Этот элемент указывает «подвал» сайта. Зачастую используется с тегами header и article.</h2>
+		</font>
+			<p>
+				<font	size="4"	color="#FFFFFF"	face="serif">
+					<input	type="radio"	name="footer"	value="header">header<br>
+					<input	type="radio"	name="footer"	value="article">article<br>
+					<input	type="radio"	name="footer"	value="footer">footer<br>
+					<input	type="radio"	name="footer"	value="form">form”<br>
+				</font>
+			</p>
+		<footer>
+			<textarea	name="text"	placeholder="Пожелания"	cols="50"	rows="5"></textarea>
+			<p	align="center">
+				<input	type="submit"	value="Отправить">
+				<input	type="reset"	value="Очистить">
+			</p>
+		</footer>
+	</form>
+		
+</body>
+</html>
